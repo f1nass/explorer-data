@@ -1,0 +1,47 @@
+# MVP project data (this template should take max. 15 m to be filled per project)
+name: SampleProject
+categories: [ defi ]
+assets_used: [ BTC, ETH, USDC ] 
+ecosystem: [ Ethereum, Polkadot, Cosmos ] 
+
+project_type: All in one Privacy tool
+description: 'Short description of project features and mission'
+
+# Team - focus on C-Level (CEO) personnel if information is available
+team:
+  anonymous: false
+  teammembers:
+    - name: Samplic Samplist
+      role: CEO
+      link: https://twitter.com/samplesampler
+    - name: Random Guy
+      role: CTO
+      link: https://twitter.com/mostrandomguy
+      
+# LINKS - focus: web, github, docs, blog, whitepaper, twitter
+links:
+  web: https://sample-website.com
+  github: https://github.com/sample_privacy_project
+  docs: https://docs.sample-website.com
+  whitepaper: https://docs.sample-website.com/whitepaper.pdf
+  blog: https://medium.com/@sample_privacy_project
+  twitter: https://twitter.com/sample_privacy_project
+  
+# Details on live status is often available via block-explorer or github
+project_status:
+  live_status: true
+  version: Mainnet
+  testnet: false
+  mainnet: true
+
+# Token ticker is enough - contract address if available (if there is no token --> have_token: false)
+have_token: true
+token_link: https://etherscan.io/address/0x148932fc33d97ae4f85443d2f6af25cacddd6062
+tokens:
+  - name: SampleToken
+    symbol: SAMPLE
+    network: Ethereum
+    contract_address: "0xe6c83af64e4c60245d8c7de953df673a00000"
+    
+# This parameter is used if a project is terminated (sunset: true)
+sunset: false
